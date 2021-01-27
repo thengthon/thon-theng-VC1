@@ -44,7 +44,7 @@ button{
     width: 200px;
     height: 60px;
     text-align: center;
-    background: #fff;
+    background: #ffffff2a;
     border: none;
     outline: none;
     cursor: pointer;
@@ -52,6 +52,6 @@ button{
 }
 button a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 32px;
 }

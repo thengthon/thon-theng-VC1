@@ -35,23 +35,31 @@ h3, ul li a{
 
 
 .container{
-    padding: 20px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
 }
 .item{
     width: 20%;
 }
-.head{
+.head img{
+    width: 100%;
     height: 25vh;
-    margin-bottom: 10px;
-    background: gray;
-    border-radius: 15px;
-
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
 }
 .body{
-    height: 50vh;
-    background: aqua;
+    height: 60vh;
+    background: rgba(128, 128, 128, 0.061);
+    padding: 20px 10px 10px 10px;
+    color: #000;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid black;
+}
+.body h3{
+    color: #000;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
 }
 
 
@@ -73,7 +81,7 @@ footer{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 50px 0 0 0;
 }
 .foot_container{
     display: flex;
