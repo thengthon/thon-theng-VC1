@@ -28,7 +28,7 @@ h3, ul li a{
     cursor: pointer;
 }
 .home{
-    background: blue;
+    color: blue;
 }
 
 
@@ -45,7 +45,8 @@ button{
     height: 60px;
     text-align: center;
     background: #fff;
-    
+    border: none;
+    outline: none;
     cursor: pointer;
     border-radius: 30px;
 }

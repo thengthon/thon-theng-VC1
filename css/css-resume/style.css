@@ -28,5 +28,77 @@ h3, ul li a{
     cursor: pointer;
 }
 .resume{
-    background: blue;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-image: url('../../pictures/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    margin-top: 50px;
+}
+.foot_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+.footer_icon ul{
+    display: flex;
+    justify-content: center;
+}
+.footer_icon ul li{
+    list-style-type: none;
+}
+.footer_icon ul li a i{
+    font-size: 40px;
+    padding: 0 0 30px 0;
+}
+.footer-nav ul{
+    text-align: center;
+    padding-bottom: 10px;
 }
