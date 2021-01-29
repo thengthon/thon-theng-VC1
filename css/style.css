@@ -385,6 +385,10 @@ footer{
         width: 70%;
     }
 
+    /* responsiv for projects */
+    .pro-container{
+        width: 100%;
+    }
     /* responsiv for hobbies */
     .hob-container{
         width: 50%;
@@ -393,12 +397,9 @@ footer{
         grid-auto-rows: 1fr;
     }
     /* responsive for contact */
-    form input{
-        width: 100%;
-        margin-bottom: 15px ;
-    }
     form .two input[type='text'], form .two input[type='submit'], form .two input[type='reset']{
         width: 100%;
+        box-sizing: border-box;
         border-radius: 0%;
     }
     .two{
